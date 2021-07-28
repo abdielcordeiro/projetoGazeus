@@ -58,7 +58,7 @@ public class TrancaPage {
         Idioma ingles = new Idioma(), portugues = new Idioma();
         portugues.setListPalavras(new ArrayList<>(Arrays.asList("JOGAR AGORA!", "JOGAR COM PESSOAS")));
         ingles.setListPalavras(new ArrayList<>(Arrays.asList("PLAY NOW!", "MULTIPLAYER")));
-
+        System.out.println("IDIOMA: " + idioma);
         switch (idioma) {
             case "portugues":
                 assertEquals("Nome do primeiro botão esta incorreto!!!", portugues.getListPalavra(0), primeiraLabel);
@@ -71,6 +71,7 @@ public class TrancaPage {
                 assertEquals("Second button name is incorrect!!!", ingles.getListPalavra(1), segundaLabel);
                 FileReaderManager.getInstance().getConfigReader().gravarFileReader("language","pt");
                 FileReaderManager.getInstance().getConfigReader().gravarFileReader("locale","br");
+                break;
             default:
                 Assert.fail("Não foi digitado um idioma valido!!!");
         }

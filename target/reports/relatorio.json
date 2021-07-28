@@ -1,0 +1,182 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-28T18:04:29.639Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14354000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.TrancaSteps.initTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Cenário: Validar idioma tela inicial",
+        "description": "",
+        "id": "tranca-jogatina;cenário:-validar-idioma-tela-inicial;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 799000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.TrancaSteps.finishTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6285000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que o aplicativo esteja aberto no idioma \"portugues\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"portugues\"",
+                  "offset": 41
+                }
+              ],
+              "location": "StepDefinitions.TrancaSteps.que_o_aplicativo_esteja_aberto_no_idioma(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 12812000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "salva o nome do primeiro e segundo botao",
+            "match": {
+              "location": "StepDefinitions.TrancaSteps.salva_o_nome_do_primeiro_e_segundo_botao()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "compara os nomes dos botoes com o respectivo idioma",
+            "match": {
+              "location": "StepDefinitions.TrancaSteps.compara_os_nomes_dos_botoes_com_o_respectivo_idioma()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Teste"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-28T18:05:03.982Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13854000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.TrancaSteps.initTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Cenário: Validar idioma tela inicial",
+        "description": "",
+        "id": "tranca-jogatina;cenário:-validar-idioma-tela-inicial;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 755000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.TrancaSteps.finishTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6354000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que o aplicativo esteja aberto no idioma \"ingles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ingles\"",
+                  "offset": 41
+                }
+              ],
+              "location": "StepDefinitions.TrancaSteps.que_o_aplicativo_esteja_aberto_no_idioma(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 12835000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "salva o nome do primeiro e segundo botao",
+            "match": {
+              "location": "StepDefinitions.TrancaSteps.salva_o_nome_do_primeiro_e_segundo_botao()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "compara os nomes dos botoes com o respectivo idioma",
+            "match": {
+              "location": "StepDefinitions.TrancaSteps.compara_os_nomes_dos_botoes_com_o_respectivo_idioma()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Teste"
+          }
+        ]
+      }
+    ],
+    "name": "Tranca Jogatina",
+    "description": "",
+    "id": "tranca-jogatina",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/Features/TrancaFeature.feature",
+    "tags": [
+      {
+        "name": "@Teste",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

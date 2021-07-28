@@ -2,7 +2,7 @@
 #Author: Abdiel Cordeiro
 
 @Teste
-Funcionalidade: Teste no jogo Tranca Jogatina
+Funcionalidade: Tranca Jogatina
 
 
   Esquema do Cenario: Cenário: Validar idioma tela inicial

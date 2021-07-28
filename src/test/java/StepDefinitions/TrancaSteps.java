@@ -2,6 +2,10 @@ package StepDefinitions;
 
 import Manager.TestContext;
 import PageFactory.TrancaPage;
+import io.appium.java_client.android.AndroidDriver;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.E;
 import io.cucumber.java.pt.Então;
@@ -11,9 +15,15 @@ public class TrancaSteps {
     private TrancaPage trancaPage;
     private TestContext testContext;
     private String idioma;
+    private AndroidDriver driver;
 
-    public TrancaSteps(TestContext context){
+    public TrancaSteps(TestContext context) {
         testContext = context;
+    }
+
+    @Before
+    public void initTest(Scenario scenario){
+        driver = testContext.getDriverManager().createDriver();
         trancaPage = testContext.getPageManager().getTrancaPage();
     }
 
@@ -34,5 +44,8 @@ public class TrancaSteps {
         trancaPage.validaIdiomaTelaInicial(idioma);
     }
 
-
+    @After
+    public void finishTest(Scenario scenario){
+        testContext.getDriverManager().closeDriver();
+    }
 }

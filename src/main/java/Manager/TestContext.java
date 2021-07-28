@@ -1,13 +1,11 @@
 package Manager;
 
-import java.net.MalformedURLException;
-
 public class TestContext {
 
 	private DriverManager driverManager;
 	private PageFactoryManager pageFactoryManager;
 
-	public TestContext() throws MalformedURLException {
+	public TestContext()  {
 		driverManager = new DriverManager();
 		pageFactoryManager = new PageFactoryManager(driverManager.createDriver());
 	}

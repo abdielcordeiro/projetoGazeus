@@ -6,7 +6,7 @@ import java.util.Properties;
 public class ConfigFileReader {
 
 	private Properties properties;
-	private final String propertyFilePath = System.getProperty("user.dir") + "/configs/Configuration.properties";
+	private final String propertyFilePath = System.getProperty("user.dir") + "/src/test/resources/configuration.properties";
 
 	public ConfigFileReader() {
 		BufferedReader reader;
@@ -21,7 +21,7 @@ public class ConfigFileReader {
 			}
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
-			throw new RuntimeException("Configuration.properties não encontrado em: " + propertyFilePath);
+			throw new RuntimeException("configuration.properties não encontrado em: " + propertyFilePath);
 		}
 	}
 
@@ -39,7 +39,7 @@ public class ConfigFileReader {
 			}
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
-			throw new RuntimeException("Configuration.properties não encontrado em: " + propertyFilePath);
+			throw new RuntimeException("configuration.properties não encontrado em: " + propertyFilePath);
 		}
 	}
 
@@ -49,7 +49,7 @@ public class ConfigFileReader {
 			return reportConfigPath;
 		else
 			throw new RuntimeException(
-					"Caminho de configuração de relatório não especificado no arquivo Configuration.properties da chave:reportConfigPath");
+					"Caminho de configuração de relatório não especificado no arquivo configuration.properties da chave:reportConfigPath");
 	}
 
 	public String getLanguageConfigPath() {
@@ -58,7 +58,7 @@ public class ConfigFileReader {
 			return languageConfigPath;
 		else
 			throw new RuntimeException(
-					"Caminho de configuração de relatório não especificado no arquivo Configuration.properties da chave:language");
+					"Caminho de configuração de relatório não especificado no arquivo configuration.properties da chave:language");
 	}
 
 	public String getLocaleConfigPath() {
@@ -67,7 +67,7 @@ public class ConfigFileReader {
 			return localeConfigPath;
 		else
 			throw new RuntimeException(
-					"Caminho de configuração de relatório não especificado no arquivo Configuration.properties da chave:locale");
+					"Caminho de configuração de relatório não especificado no arquivo configuration.properties da chave:locale");
 	}
 
 }
