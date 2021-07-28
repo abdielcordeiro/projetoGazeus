@@ -6,7 +6,7 @@
 <a href="#rocket-tecnologia" style="margin-left: 30px; margin-right: 30px;">Tecnologias</a> |
 <a href="#information_source-requisitos-android" style="margin-left: 30px; margin-right: 30px;">Requisitos Android</a> |
 <a href="#information_source-atividades" style="margin-left: 30px; margin-right: 30px;">Atividades</a> |
-<a href="#information_source-sobre-o-autor" style="margin-left: 30px; margin-right: 30px;">Sobre o Autor</a> |
+<a href="#love_you_gesture-sobre-o-autor-technologist" style="margin-left: 30px; margin-right: 30px;">Sobre o Autor</a> |
 </p>
 
 ## :rocket: Tecnologias
@@ -72,7 +72,7 @@
     Crie um BDD com nome de <label style="font-weight: bold; color:yellow;">src/test/Features/PacienciaFeature.feature</label> onde consta dois fluxos de testes manuais um para validar se as opções de auxilio de jogo estão funcionando corretamente, outro para validar e depois de realizar uma jogada e clicar em reiniciar o contador de tempo volta a zero 
 </h4> 
 
-## :love_you_gesture: :technologist: Sobre o Autor
+## :love_you_gesture: Sobre o Autor :technologist:
 
 <label style="font-weight: bold;">Nome: </label> <label style="font-weight: bold;">Abdiel Cordeiro</label> 
 <br>
