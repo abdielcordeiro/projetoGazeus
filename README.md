@@ -5,8 +5,8 @@
 <p align="center">
 <a href="#rocket-tecnologia" style="margin-left: 30px; margin-right: 30px;">Tecnologias</a> |
 <a href="#information_source-requisitos-android" style="margin-left: 30px; margin-right: 30px;">Requisitos Android</a> |
-<a href="#information_source-informacoes" style="margin-left: 30px; margin-right: 30px;">Atividades</a> |
-<a href="#information_source-sobre-autor" style="margin-left: 30px; margin-right: 30px;">Sobre Autor</a> |
+<a href="#information_source-atividades" style="margin-left: 30px; margin-right: 30px;">Atividades</a> |
+<a href="#information_source-sobre-o-autor" style="margin-left: 30px; margin-right: 30px;">Sobre o Autor</a> |
 </p>
 
 ## :rocket: Tecnologias
