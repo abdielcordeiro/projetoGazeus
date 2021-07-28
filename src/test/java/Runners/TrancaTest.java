@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         plugin = {"pretty", "json:target/reports/relatorio.json", "junit:target/reports/relatorio.xml"},
         monochrome = false,
         dryRun = false,
-        tags = "@Teste"
+        tags = "@Tranca"
 )
 
 public class TrancaTest {

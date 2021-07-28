@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="68.399">
-<testcase classname="Tranca Jogatina" name="Cenário: Validar idioma tela inicial" time="34.329">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="72.014">
+<testcase classname="Tranca Jogatina" name="Cenário: Validar idioma tela inicial" time="34.721">
 <system-out><![CDATA[Dado que o aplicativo esteja aberto no idioma "portugues"...................passed
 E salva o nome do primeiro e segundo botao..................................passed
 Então compara os nomes dos botoes com o respectivo idioma...................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Tranca Jogatina" name="Cenário: Validar idioma tela inicial 2" time="33.808">
+<testcase classname="Tranca Jogatina" name="Cenário: Validar idioma tela inicial 2" time="37.006">
 <system-out><![CDATA[Dado que o aplicativo esteja aberto no idioma "ingles"......................passed
 E salva o nome do primeiro e segundo botao..................................passed
 Então compara os nomes dos botoes com o respectivo idioma...................passed
