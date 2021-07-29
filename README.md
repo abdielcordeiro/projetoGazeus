@@ -15,7 +15,7 @@
 - [Cucumber](http://cucumber.io/)
 - [Maven](http://maven.apache.org/)
 - [Intellij](http://www.jetbrains.com/idea/)
-- [NPM](http://www.npmjs.com)
+- [NodeJS](https://nodejs.org/en/)
 - [Android](https://developer.android.com/studio)
 - [Pico Container](http://picocontainer.com/introduction.html)
 - [JUnit](https://junit.org/junit5/)
@@ -23,7 +23,7 @@
 - [Gherkin](https://cucumber.io/docs/gherkin/)
 
 <h4 align="center">
- Para rodar o projeto se faz necessario a instalação a parte das ferramentas:<br>APPIUM, NPM e Android. 
+ Para rodar o projeto se faz necessario a instalação a parte das ferramentas:<br>APPIUM, NodeJs e Android. 
 </h4>
 
 ## :information_source: Requisitos Android
@@ -31,7 +31,11 @@
 * Configurar as variaveis de ambiente do Android SDK.
 * Configurar as variaveis de ambiente do Java JDK
 * Verificar conectividade do Appium com o device
-* Carregar as dependências do projeto (maven)
+* Carregar as dependências do projeto( maven )
+
+  <h4 align="center">
+  Segue versão que foram utilizadas para desenvolvimento do projeto JDK( 1.8.0_291 ), SDK Platform-Tools( 31.0.2 ), Appium( 1.21.0 ), NodeJS( 12.8.1 )
+  </h4>
 
 ## :information_source: Atividades
 
