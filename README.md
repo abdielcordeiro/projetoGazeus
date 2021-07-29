@@ -66,10 +66,11 @@
     Crie um BDD com nome de <label style="font-weight: bold; color:yellow;">src/test/Features/PacienciaFeature.feature</label> onde consta dois fluxos de testes manuais um para validar se as opções de auxilio de jogo estão funcionando corretamente, outro para validar e depois de realizar uma jogada e clicar em reiniciar o contador de tempo volta a zero 
 </h4> 
 
-<h2>Atividade 3 - Paciencia Jogatina - Relatório de bug</h2>
+<h2>Atividade 3 - Paciencia Jogatina - Report bug</h2>
 
 <h4  align="left" style="margin-left: 50px;">
-    Crie um BDD com nome de <label style="font-weight: bold; color:yellow;">src/test/Features/PacienciaFeature.feature</label> onde consta dois fluxos de testes manuais um para validar se as opções de auxilio de jogo estão funcionando corretamente, outro para validar e depois de realizar uma jogada e clicar em reiniciar o contador de tempo volta a zero 
+  Para a terceira atividade foi desenvolvido um report de um falso bug encontrado no jogo Paciência, onde ele foi descrito dentro de um arquivo que se encontra na pasta: <label style="font-weight: bold; color:yellow;">arquivosExternos/</label>  
+  dentro da pasta consta um arquivo em .docx e um video em .mp4 simulando o bug, o arquivo em Doc foi escrito seguindo uma parametro eu utilizo para relatar um bug no Jira ferramenta que utilizamos para controle das historias e bug.
 </h4> 
 
 ## :love_you_gesture: Sobre o Autor :technologist:
