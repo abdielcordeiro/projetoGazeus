@@ -15,7 +15,7 @@
 - [Cucumber](http://cucumber.io/)
 - [Maven](http://maven.apache.org/)
 - [Intellij](http://www.jetbrains.com/idea/)
-- [NPM](http://www.npmjs.com)
+- [NPMJS](http://www.npmjs.com)
 - [Android](https://developer.android.com/studio)
 - [Pico Container](http://picocontainer.com/introduction.html)
 - [JUnit](https://junit.org/junit5/)
@@ -23,7 +23,7 @@
 - [Gherkin](https://cucumber.io/docs/gherkin/)
 
 <h4 align="center">
- Para rodar o projeto se faz necessario a instalação a parte das ferramentas:<br>APPIUM, NPM e Android. 
+ Para rodar o projeto se faz necessario a instalação a parte das ferramentas:<br>APPIUM, NPMJS e Android. 
 </h4>
 
 ## :information_source: Requisitos Android
