@@ -1,10 +1,10 @@
 <h1 align="center" style="color:green">
- Este projeto foi desenvolvido para realização de um teste de conhecimentos para a empresa Gazeus Games.
+ Este projeto foi desenvolvido para a realização de um teste de conhecimentos para a empresa Gazeus Games.
 </h1>
 
 <p align="center">
 <a href="#rocket-tecnologia" style="margin-left: 30px; margin-right: 30px;">Tecnologias</a> |
-<a href="#information_source-requisitos-android" style="margin-left: 30px; margin-right: 30px;">Requisitos Android</a> |
+<a href="#information_source-requisitos-automacao" style="margin-left: 30px; margin-right: 30px;">Requisitos Automação</a> |
 <a href="#information_source-atividades" style="margin-left: 30px; margin-right: 30px;">Atividades</a> |
 <a href="#love_you_gesture-sobre-o-autor-technologist" style="margin-left: 30px; margin-right: 30px;">Sobre o Autor</a> |
 </p>
@@ -16,7 +16,7 @@
 - [Maven](http://maven.apache.org/)
 - [Intellij](http://www.jetbrains.com/idea/)
 - [NodeJS](https://nodejs.org/en/)
-- [Android](https://developer.android.com/studio)
+- [Android Studio](https://developer.android.com/studio)
 - [Pico Container](http://picocontainer.com/introduction.html)
 - [JUnit](https://junit.org/junit5/)
 - [Selenium](https://www.selenium.dev/)
@@ -26,10 +26,10 @@
  Para rodar o projeto se faz necessario a instalação a parte das ferramentas:<br>APPIUM, NodeJs e Android. 
 </h4>
 
-## :information_source: Requisitos Android
+## :information_source: Requisitos Automação
 
-* Configurar as variaveis de ambiente do Android SDK.
-* Configurar as variaveis de ambiente do Java JDK
+* Configurar as variáveis de ambiente do Android SDK.
+* Configurar as variáveis de ambiente do Java JDK
 * Verificar conectividade do Appium com o device
 * Carregar as dependências do projeto( maven )
 
@@ -51,7 +51,7 @@
 </h4> 
 
 <h4 align="left" style="margin-left: 50px;">
- Quando a automação é executada ela gera 3 relatórios, dois deles ficam dentro da pasta 
+ Quando a automação é executada, gera 3 relatórios, dois deles ficam dentro da pasta 
     <label style="font-weight: bold; color:yellow;">target/reports</label> 
     tendo um relatório em json outro em xml e o terceiro relatório é mostrado no fim da execução com um link do cucumber, segue exemplo:
     <a href="https://reports.cucumber.io/reports/4956629d-b870-424c-9cd2-539cbc909407">reports.cucumber.io/reports/4956629d-b870-424c-9cd2-539cbc909407</a>
@@ -60,21 +60,23 @@
 - <h3>Atividade 1.2 - Teste de Interface</h3>
 
 <h4  align="left" style="margin-left: 50px;">
-    Foi desenvolvido 4 cenários de testes de interface, sendo eles: Validar o Tutorial, Validar as Regras di jogo, Alterar as opções do jogo e Retornar a uma partida anterior. 
+    Foi desenvolvido 4 cenários de testes de interface, sendo eles: Validar o Tutorial, Validar as Regras do jogo, Alterar as opções do jogo e Retornar a uma partida anterior. 
     Para localizar o BDD com estes 4 testes basta acessar: <label style="font-weight: bold; color:yellow;">src/test/Features/TrancaFeature.feature</label> os teste manuais estão demarcados com um tag: <label style="font-weight: bold; color:yellow;">@testeManual</label>
 </h4> 
 
 <h2>Atividade 2 - Paciencia Jogatina</h2>
 
 <h4  align="left" style="margin-left: 50px;">
-    Crie um BDD com nome de <label style="font-weight: bold; color:yellow;">src/test/Features/PacienciaFeature.feature</label> onde consta dois fluxos de testes manuais um para validar se as opções de auxilio de jogo estão funcionando corretamente, outro para validar e depois de realizar uma jogada e clicar em reiniciar o contador de tempo volta a zero 
+    Crie um BDD com nome de <label style="font-weight: bold; color:yellow;">src/test/Features/PacienciaFeature.feature</label> onde consta dois fluxos de testes manuais um para validar se as opções de auxílio de jogo estão funcionando corretamente, outro para validar e depois de realizar uma jogada e clicar em reiniciar o contador de tempo volta a zero 
 </h4> 
 
 <h2>Atividade 3 - Paciencia Jogatina - Report bug</h2>
 
 <h4  align="left" style="margin-left: 50px;">
-  Para a terceira atividade foi desenvolvido um report de um falso bug encontrado no jogo Paciência, onde ele foi descrito dentro de um arquivo que se encontra na pasta: <label style="font-weight: bold; color:yellow;">arquivosExternos/</label>  
-  dentro da pasta consta um arquivo em .docx e um video em .mp4 simulando o bug, o arquivo em Doc foi escrito seguindo uma parametro eu utilizo para relatar um bug no Jira ferramenta que utilizamos para controle das historias e bug.
+  Para a terceira atividade foi desenvolvido um report de um falso bug encontrado no jogo Paciência, onde ele foi descrito dentro de um arquivo que se encontra na pasta: <label style="font-weight: bold; color:yellow;">/arquivosExternos/</label>. 
+</h4> 
+<h4  align="left" style="margin-left: 50px;">
+  Dentro da pasta consta um arquivo em .docx e um video em .mp4 simulando o bug, o arquivo em Doc foi escrito seguindo uma parâmetro eu utilizo para relatar um bug no Jira ferramenta que utilizamos para controle das histórias e bug.
 </h4> 
 
 ## :love_you_gesture: Sobre o Autor :technologist:
@@ -85,6 +87,6 @@
 
 
 <h4  align="left" style="margin-left: 50px;">
-    Muito obrigado pela oportunidade da realização deste teste, que me fez relembrar coisas que já havia aprendendo como também aprender coisas novas!!!  
+    Agradeço pela oportunidade da realização deste teste, onde pude agregar experiência ao meu conhecimento e que me fez relembrar também, conteúdos e programações que já havia explorado anteriormente... Foi uma experiência incrível!
 </h4> 
 :muscle: :thumbsup:
